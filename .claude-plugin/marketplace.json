@@ -1,0 +1,18 @@
+{
+  "name": "capucalc-tools",
+  "owner": {
+    "name": "CapUCalc"
+  },
+  "metadata": {
+    "description": "Official CapUCalc plugin marketplace — skills for finance and accounting pros who use CapUCalc.",
+    "version": "0.3.0"
+  },
+  "plugins": [
+    {
+      "name": "captable-import",
+      "source": "./plugins/captable-import",
+      "description": "Reads a client's source cap table (xlsx or pdf) and populates the matching equity classes in the CapUCalc Capital Table Editor.",
+      "version": "0.3.0"
+    }
+  ]
+}
